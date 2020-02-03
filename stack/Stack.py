@@ -12,7 +12,13 @@ class Stack:
         self.items.append(item)
 
     def pop(self):
+        if len(self.items) == 0:
+            raise IndexError("Stack is already empty!")
+
         return self.items.pop()
 
     def peek(self):
+        if len(self.items) == 0:
+            raise IndexError("Stack is empty!")
+
         return self.items[len(self.items)]
