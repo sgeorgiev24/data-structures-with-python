@@ -15,4 +15,5 @@ def decToBin(decNum):
 
     return binString
 
+
 print(decToBin(2))

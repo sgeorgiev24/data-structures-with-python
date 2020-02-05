@@ -24,5 +24,6 @@ def parChecker(text):
 
     return balanced
 
+
 print(parChecker("()()((())))"))
 print(parChecker("()()((()))"))
